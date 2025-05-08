@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    color: #424548;
 }
 .hero-section{
     
@@ -8,14 +9,14 @@ body{
     color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 
 }
 .header-nav{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 1050px;
+    max-width: 1050px;
 }
 .nav{
     list-style: none;
@@ -32,7 +33,7 @@ li {
 }
 .hero-content{
     
-    width: 1050px;
+    max-width: 1050px;
     display: flex;
     margin: 5rem auto;
 }
@@ -69,4 +70,55 @@ button{
     font-size: 16px;
     font-weight: 600;
     margin-top: 10px;
+}
+.information-section{
+    padding-bottom: 100px;
+}
+.info-title{
+    text-align: center;
+    font-size: 2em;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 10px;
+
+}
+.info{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    gap: 50px;
+}
+.info-card {
+    /* display: flex
+; */
+    /* flex-direction: column; */
+    width: 170px;
+    text-align: center;
+}
+.info-img{
+    width: 155px;
+    height: 155px;
+    border:5px solid #3882f6;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+.info-text p{
+    margin-top: 5px;
+}
+.quote-section{
+    display: block;
+    background: #E5E7EB;
+    padding: 110px;
+}
+
+blockquote{
+    max-width: 790px;
+    margin: auto;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 300;
+}
+blockquote p{
+    margin: 0;
 }
