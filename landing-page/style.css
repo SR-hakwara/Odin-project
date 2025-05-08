@@ -122,3 +122,27 @@ blockquote{
 blockquote p{
     margin: 0;
 }
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.call-to-action{
+    display: flex
+;
+    justify-content: space-around;
+    max-width: 1000px;
+    flex: 1;
+    margin: auto;
+    padding: 40px;
+    background: #3882f6;
+    color: white;
+    border-radius: 10px;
+}
+.call-to-action h2,p{
+    margin: 5px;
+}
+.call-to-action button{
+    border: 2px solid white;
+}
